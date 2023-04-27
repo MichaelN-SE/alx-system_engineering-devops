@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Displays information about the file `school`.
 
 if [ -e "school" ]
@@ -11,7 +10,6 @@ then
   else
     echo "school file is empty"
   fi
-
 
   if [ -f "school" ]
   then
